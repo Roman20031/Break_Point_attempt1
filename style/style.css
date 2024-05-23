@@ -1,0 +1,33 @@
+.container{
+    width: 90%;
+    margin: 0 auto;
+    background-color: blueviolet;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.container h1{
+    font-size: 24px;
+
+}
+
+.container p{
+    font-size: 16px;
+
+}
+
+@media (min-width: 768px){
+    .container{
+        width: 50%;
+        background-color: blue;
+    }
+    .container h1{
+        font-size: 16px;
+    }
+    .container p{
+        display: none;
+    }
+
+}
+
